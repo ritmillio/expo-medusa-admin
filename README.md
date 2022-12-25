@@ -7,7 +7,6 @@
 <h1 align="center">
   Medusa Admin Expo
 </h1>
-<p align="center">Created by react-native expo and NativeWind</p>
 <p align="center">
 Medusa is an open-source headless commerce engine that enables developers to create amazing digital commerce experiences.
 </p>
@@ -29,6 +28,22 @@ Medusa is an open-source headless commerce engine that enables developers to cre
   </a>
 </p>
 
+## TODO list
+#### This repository is still under development. If you would like to help me build this app please scroll down to contribute section and follow instructions.
+Initial design:
+>Same as on Shopify mobile app.
+1. Create a login screen with the same authentication as on Medusa Admin. User should be able to login via email&password or quick login with Google Auth. -> Priority (high)
+2. Home Page - User should be able to see todays total order number and some chart with the weekly orders -> Priority: (high)
+3. Create an Order Screen - User should be able to see all the orders -> Priority: (high)
+4. Order notification - If shop receives an order user should get an instant notification about that order with the following details(order created date, total value, order number) -> Priority (medium)
+5. Splash Screen -> Medusa logo -> Priority: (high)
+6. Products Screen -> 1st iteration --> User should be able to see all the products. 2nd iteration --> User should be able to edit, delete and add new product.
+7. Store Screen --> 
+	a. Customers Screen --> User should be able to see all customers (prio - low)
+	b. Analytics Screen --> Charts about total sales/daily sales etc. (prio - low)
+	c. Discounts Screen --> User should be able to see current promo code, should be able to add new and delete. (prio - high)
+	d. Settings Screen --> User should be able to set the same things as on Medusa Admin Desktop (prio - low)
+	
 ## Setting up Expo Admin
 
 1. **Clone this repository**
