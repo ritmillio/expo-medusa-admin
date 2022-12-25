@@ -4,6 +4,8 @@ import Entypo from '@expo/vector-icons/Entypo';
 import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
 
+import LoginScreen from './screens/LoginScreen';
+
 SplashScreen.preventAutoHideAsync();
 
 export default function App() {
@@ -13,7 +15,7 @@ export default function App() {
     async function prepare() {
       try {
         await Font.loadAsync(Entypo.font);
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, 1000));
       } catch (e) {
         console.warn(e);
       } finally {
@@ -36,10 +38,10 @@ export default function App() {
 
   return (
     <View
-      style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}
+      className='flex-1 items-center justify-center'
       onLayout={onLayoutRootView}>
-      <Text>SplashScreen Demo! 👋</Text>
-      <Entypo name="rocket" size={30} />
+      {/* <HomeScreen /> */}
+      <LoginScreen />
     </View>
   );
 }
