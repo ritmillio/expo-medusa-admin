@@ -32,6 +32,7 @@ Medusa is an open-source headless commerce engine that enables developers to cre
 #### This repository is still under development. If you would like to help me build this app please scroll down to contribute section and follow instructions.
 Initial design:
 >Same as on Shopify mobile app.
+0. Navigation - PRIO: HIGH
 1. Create a login screen with the same authentication as on Medusa Admin. User should be able to login via email&password or quick login with Google Auth. -> Priority (high)
 2. Home Page - User should be able to see todays total order number and some chart with the weekly orders -> Priority: (high)
 3. Create an Order Screen - User should be able to see all the orders -> Priority: (high)
