@@ -36,7 +36,7 @@ Initial design:
 2. Home Page - User should be able to see todays total order number and some chart with the weekly orders -> Priority: (high)
 3. Create an Order Screen - User should be able to see all the orders -> Priority: (high)
 4. Order notification - If shop receives an order user should get an instant notification about that order with the following details(order created date, total value, order number) -> Priority (medium)
-5. Splash Screen -> Medusa logo -> Priority: (high)
+5. Splash Screen -> Medusa logo -> Priority: (high) - DONE
 6. Products Screen -> 1st iteration --> User should be able to see all the products. 2nd iteration --> User should be able to edit, delete and add new product.
 7. Store Screen --> 
 	a. Customers Screen --> User should be able to see all customers (prio - low)
