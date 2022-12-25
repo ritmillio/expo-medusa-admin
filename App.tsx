@@ -4,6 +4,7 @@ import Entypo from '@expo/vector-icons/Entypo';
 import * as SplashScreen from 'expo-splash-screen';
 import * as Font from 'expo-font';
 
+import HomeScreen from './screens/HomeScreen';
 import LoginScreen from './screens/LoginScreen';
 
 SplashScreen.preventAutoHideAsync();
@@ -40,8 +41,8 @@ export default function App() {
     <View
       className='flex-1 items-center justify-center'
       onLayout={onLayoutRootView}>
-      {/* <HomeScreen /> */}
-      <LoginScreen />
+      <HomeScreen />
+      {/* <LoginScreen /> */}
     </View>
   );
 }
